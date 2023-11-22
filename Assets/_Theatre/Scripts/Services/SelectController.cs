@@ -48,7 +48,11 @@ public class SelectController : MonoBehaviour
         
         ray = _camera.ScreenPointToRay(_rayStartPosition);
         Physics.Raycast(ray, out var secondHit, Mathf.Infinity, layerMask);
-        if (firstHit.transform.gameObject == secondHit.transform.gameObject && secondHit.transform != null)
+        
+        if(secondHit.transform == null)
+            yield break;
+        
+        if (firstHit.transform.gameObject == secondHit.transform.gameObject)
             OnSelectHandler(secondHit.transform.gameObject);
             //secondHit.transform.GetComponent<InvisibleObjectController>()?.SetUp();
     }
