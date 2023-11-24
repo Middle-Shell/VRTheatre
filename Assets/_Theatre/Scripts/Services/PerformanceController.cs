@@ -13,5 +13,6 @@ public class PerformanceController : MonoBehaviour
     private void SetUp(GameObject gameObject)
     { 
         gameObject.GetComponent<IInvisibleController>().SetUp();
+        gameObject.layer = 0;
     }
 }

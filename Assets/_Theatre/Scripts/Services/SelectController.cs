@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR;
 
 public class SelectController : MonoBehaviour
 {
@@ -39,6 +40,29 @@ public class SelectController : MonoBehaviour
     void Update()
     {
         _ray = _camera.ScreenPointToRay(_rayStartPosition);
+        if (XRSettings.enabled)
+        {
+            // Получить данные о глазах
+            List<XRNodeState> xrNodeStates = new List<XRNodeState>();
+            InputTracking.GetNodeStates(xrNodeStates);
+
+            foreach (var xrNodeState in xrNodeStates)
+            {
+                if (xrNodeState.nodeType == XRNode.RightEye)
+                {
+                    // Получить позицию и направление правого глаза
+                    Vector3 rightEyePosition;
+                    xrNodeState.TryGetPosition(out rightEyePosition);
+
+                    Quaternion rightEyeRotation;
+                    xrNodeState.TryGetRotation(out rightEyeRotation);
+
+                    // Отправить луч из центра экрана правого глаза
+                    _ray = new Ray(rightEyePosition, rightEyeRotation * Vector3.forward);
+                }
+            }
+        }
+        
         Debug.DrawRay(_ray.origin, _ray.direction * 1000f, Color.red);
 
         Physics.Raycast(_ray, out var firstHit, Mathf.Infinity, layerMask);
