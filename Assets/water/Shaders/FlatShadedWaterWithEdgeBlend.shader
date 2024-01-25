@@ -217,5 +217,5 @@ Subshader
 }
 
 
-Fallback "Transparent/Diffuse"
+
 }
