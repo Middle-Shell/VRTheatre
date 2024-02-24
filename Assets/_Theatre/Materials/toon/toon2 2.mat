@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: toon2
+  m_Name: toon2 2
   m_Shader: {fileID: 4800000, guid: 8954516d04b7b5f46947c6a340565e0a, type: 3}
   m_Parent: {fileID: 2100000, guid: b92f9e7b298648249ac65ddd57e755ee, type: 2}
   m_ModifiedSerializedProperties: 0
