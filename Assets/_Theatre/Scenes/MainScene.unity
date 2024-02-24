@@ -895,7 +895,7 @@ Transform:
   m_GameObject: {fileID: 306095271}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.18503742, z: -0, w: 0.98273146}
-  m_LocalPosition: {x: 8.79, y: 5.42, z: 3.09}
+  m_LocalPosition: {x: 9.82, y: 2.89, z: 2.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3404,8 +3404,8 @@ Transform:
   m_GameObject: {fileID: 1182295216}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.9999941, z: -0, w: 0.0034578098}
-  m_LocalPosition: {x: 28.16, y: -1.5, z: -3.82}
-  m_LocalScale: {x: 0.8899988, y: 1, z: 0.6654865}
+  m_LocalPosition: {x: -49.4796, y: -2, z: 4.3672}
+  m_LocalScale: {x: 1.0682955, y: 1, z: 0.75233245}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3645,7 +3645,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075155838382831309, guid: 273b8f4150121d249ac7e2fd11da7005, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 6075155838382831309, guid: 273b8f4150121d249ac7e2fd11da7005, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5248,6 +5248,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2645558736472133664, guid: af4cb9fbbb9b1c942b1f28720f064f11, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.8662923
+      objectReference: {fileID: 0}
+    - target: {fileID: 2645558736472133664, guid: af4cb9fbbb9b1c942b1f28720f064f11, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.8662923
+      objectReference: {fileID: 0}
+    - target: {fileID: 2645558736472133664, guid: af4cb9fbbb9b1c942b1f28720f064f11, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.76555854
+      objectReference: {fileID: 0}
     - target: {fileID: 5832789886011691547, guid: af4cb9fbbb9b1c942b1f28720f064f11, type: 3}
       propertyPath: m_Name
       value: furTree
@@ -5875,7 +5887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8377151309574368355, guid: 2554008d6447a2540b44e55f0c0b576e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6
+      value: 1.24
       objectReference: {fileID: 0}
     - target: {fileID: 8377151309574368355, guid: 2554008d6447a2540b44e55f0c0b576e, type: 3}
       propertyPath: m_LocalPosition.z
