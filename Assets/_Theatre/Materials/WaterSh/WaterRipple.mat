@@ -19,7 +19,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _SurfaceNoiseCutoff
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -68,13 +68,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SurfaceDistortion:
-        m_Texture: {fileID: 2800000, guid: 902dbed8f02928b41bf9419339f8bfd1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2bff9f99db8b05443bbe7eab849a4ec5, type: 3}
         m_Scale: {x: 0.5, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _SurfaceNoise:
-        m_Texture: {fileID: 2800000, guid: 78ea8ac0a319d1d429febb63a8e67917, type: 3}
-        m_Scale: {x: -5.73, y: 0}
-        m_Offset: {x: 0.65, y: 0}
+        m_Texture: {fileID: 2800000, guid: 100a631bb59139744a653016eed9ec7b, type: 3}
+        m_Scale: {x: 1.07, y: 0.15}
+        m_Offset: {x: 0.87, y: -0.52}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -98,14 +98,14 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DepthMaxDistance: 3.8
+    - _DepthMaxDistance: 3.41
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _FoamMaxDistance: 0.4
-    - _FoamMinDistance: 1.6
+    - _FoamMinDistance: 0.4
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -121,18 +121,18 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _SurfaceDistortionAmount: 1
-    - _SurfaceNoiseCutoff: 0.234
+    - _SurfaceNoiseCutoff: 0.105
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DepthGradientDeep: {r: 0, g: 0, b: 0, a: 1}
-    - _DepthGradientShallow: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
+    - _DepthGradientShallow: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+    - _FoamColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SurfaceNoiseScroll: {r: 0.1, g: -0.1, b: 0, a: 0.1}
+    - _SurfaceNoiseScroll: {r: 0.48, g: 1.07, b: 6.87, a: -2.8}
   m_BuildTextureStacks: []
 --- !u!114 &7322919740925960349
 MonoBehaviour:
