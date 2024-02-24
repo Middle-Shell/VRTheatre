@@ -49,7 +49,7 @@ Shader "Roystan/Toon/Water Tut"
 			ZWrite Off
 
             CGPROGRAM
-			#define SMOOTHSTEP_AA 0.01
+			#define SMOOTHSTEP_AA 0.1
 
             #pragma vertex vert
             #pragma fragment frag
