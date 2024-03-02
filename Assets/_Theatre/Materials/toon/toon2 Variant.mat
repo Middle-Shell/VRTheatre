@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: toon2 Variant
+  m_Shader: {fileID: 4800000, guid: be891319084e9d147b09d89e80ce60e0, type: 3}
+  m_Parent: {fileID: 2100000, guid: 650908f9c95dd784aa0c35fc2c1aa3ff, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _EMISSIVE_SIMPLE
+  - _IS_ANGELRING_OFF
+  - _IS_CLIPPING_OFF
+  - _IS_OUTLINE_CLIPPING_NO
+  - _OUTLINE_POS
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    IgnoreProjection: False
+    RenderType: Opaque
+  disabledShaderPasses:
+  - SRPDEFAULTUNLIT
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Ap_RimLight_Power: 0.986
+    - _Farthest_Distance: 49.86
+    - _Is_BlendBaseColor: 0
+    - _LightDirection_MaskOn: 1
+    - _MatCap: 0
+    - _OUTLINE: 1
+    - _Offset_Z: -9.4
+    - _Outline_Width: -1.7
+    - _RimLight: 1
+    - _RimLight_FeatherOff: 1
+    - _RimLight_InsideMask: 0.552
+    - _RimLight_Power: 0
+    - _Tweak_LightDirection_MaskLevel: 0
+    - _Tweak_RimLightMaskLevel: 0.02
+    m_Colors: []
+  m_BuildTextureStacks: []
