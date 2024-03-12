@@ -134,7 +134,7 @@ MonoBehaviour:
     enableWrite: 1
     stencilSettings:
       overrideStencilState: 1
-      stencilReference: 0
+      stencilReference: 2
       stencilCompareFunction: 8
       passOperation: 0
       failOperation: 0
@@ -143,4 +143,4 @@ MonoBehaviour:
       overrideCamera: 1
       restoreCamera: 1
       offset: {x: 0, y: 0, z: 0, w: 0}
-      cameraFieldOfView: 60
+      cameraFieldOfView: 71.7
