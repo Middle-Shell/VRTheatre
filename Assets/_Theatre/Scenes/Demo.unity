@@ -939,11 +939,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 07995b90597fc8448be9a92605336f2a, type: 2}
     - target: {fileID: 6654487660359670536, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: radius
-      value: 12.62
+      value: 59.99
       objectReference: {fileID: 0}
     - target: {fileID: 6654487660359670536, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: currentPhase
-      value: 1105.3052
+      value: 399.79688
       objectReference: {fileID: 0}
     - target: {fileID: 7278215805960395818, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: shaderData_Phase.Array.data[0]
