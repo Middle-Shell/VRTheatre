@@ -920,11 +920,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 07995b90597fc8448be9a92605336f2a, type: 2}
     - target: {fileID: 448383330099853304, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.99
+      value: -15.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 448383330099853304, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.49
       objectReference: {fileID: 0}
     - target: {fileID: 448383330099853304, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -134.94
+      value: -79.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 715381707498088276, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: DRM OldMAN
       objectReference: {fileID: 0}
     - target: {fileID: 911526627381597128, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_Materials.Array.size
@@ -936,11 +944,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 07995b90597fc8448be9a92605336f2a, type: 2}
     - target: {fileID: 1218645224234933387, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: radius
-      value: 55.38
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1218645224234933387, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: currentPhase
-      value: 720.9748
+      value: 728.8186
       objectReference: {fileID: 0}
     - target: {fileID: 1240962767128431646, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_RootOrder
@@ -986,17 +994,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1616534156909454836, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: 1Blind
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703595086977722941, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: radius
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703595086977722941, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: currentPhase
+      value: 1.3333334
+      objectReference: {fileID: 0}
     - target: {fileID: 1773955774943660956, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_Name
       value: Scene
       objectReference: {fileID: 0}
+    - target: {fileID: 1793304595282483025, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: Babki
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832284637921838007, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: OldWoman
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908315400393670172, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908315400393670172, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -77.98
+      objectReference: {fileID: 0}
     - target: {fileID: 2397907077823134520, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: radius
-      value: 8
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2397907077823134520, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: currentPhase
-      value: 726.9236
+      value: 764.1331
       objectReference: {fileID: 0}
     - target: {fileID: 2589748057365481407, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1010,6 +1046,62 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 07995b90597fc8448be9a92605336f2a, type: 2}
+    - target: {fileID: 3135232714897592169, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: DRM 1Blind
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135232714897592169, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465542152713200074, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: 2Blind
+      objectReference: {fileID: 0}
+    - target: {fileID: 3526099210204411360, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 3526099210204411360, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -74.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3694767479860113666, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3694767479860113666, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -75.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126343413223878590, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4126343413223878590, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -72.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260509969492060093, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: DRM OldWoman
+      objectReference: {fileID: 0}
+    - target: {fileID: 5336226220166974061, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 5336226220166974061, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -72.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540719637871019510, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: DRM 2Blind
+      objectReference: {fileID: 0}
+    - target: {fileID: 5540719637871019510, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5661662606023378079, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.03
@@ -1030,13 +1122,17 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 623054a1475f1f44fb413438220ff403, type: 2}
+    - target: {fileID: 6606556536428956256, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: DRM YoungLady
+      objectReference: {fileID: 0}
     - target: {fileID: 6654487660359670536, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: radius
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6654487660359670536, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: currentPhase
-      value: 1108.3042
+      value: 25.911598
       objectReference: {fileID: 0}
     - target: {fileID: 7145656803162787386, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1256,11 +1352,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7419668987470833006, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: radius
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7419668987470833006, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: currentPhase
-      value: 6.2762136
+      value: 47.461617
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651177701179144759, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: OldMAN
       objectReference: {fileID: 0}
     - target: {fileID: 7806554723896914361, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_Materials.Array.size
@@ -1282,17 +1382,29 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -76.65212
       objectReference: {fileID: 0}
+    - target: {fileID: 7872448041270587940, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: radius
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7872448041270587940, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: currentPhase
+      value: 1.3333334
+      objectReference: {fileID: 0}
     - target: {fileID: 7872938424238148261, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: currentPhase
       value: 50.82111
       objectReference: {fileID: 0}
+    - target: {fileID: 7915971595487258811, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: DRM 3Blind
+      objectReference: {fileID: 0}
     - target: {fileID: 7959738809364596415, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: radius
-      value: 0.3
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7959738809364596415, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: currentPhase
-      value: 715.27405
+      value: 53.932377
       objectReference: {fileID: 0}
     - target: {fileID: 8135471765142916107, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_Materials.Array.size
@@ -1304,11 +1416,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 07995b90597fc8448be9a92605336f2a, type: 2}
     - target: {fileID: 8393958198936347828, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.88
+      value: -15.59
       objectReference: {fileID: 0}
     - target: {fileID: 8393958198936347828, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -79.4
+      value: -77.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8536617304624357667, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: DRM Babki
+      objectReference: {fileID: 0}
+    - target: {fileID: 8547556984863950725, guid: 28a26d22d6c65b34fabafa6bd62e7d14, type: 3}
+      propertyPath: m_Name
+      value: 3Blind
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
