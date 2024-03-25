@@ -2218,6 +2218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Clips: []
+  numAudio: 0
 --- !u!82 &203061224379225900
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3541,14 +3542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fed9641ee24385d4698de9fb997aba6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Actors:
-  - {fileID: 4977973233780995977}
-  - {fileID: 7204622967955656665}
-  - {fileID: 203061224379225899}
-  - {fileID: 7347585314877931955}
-  - {fileID: 8487212094984907733}
-  - {fileID: 6785704442911099048}
-  - {fileID: 5042848091040450407}
+  actors: []
+  blockI: 0
 --- !u!1001 &1809773192348454960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7539,6 +7534,7 @@ MonoBehaviour:
   Clips:
   - {fileID: 8300000, guid: 4d1a648c395399d41a26d5656b6d37c9, type: 3}
   - {fileID: 8300000, guid: 4d1a648c395399d41a26d5656b6d37c9, type: 3}
+  numAudio: 0
 --- !u!82 &4977973233780995978
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7549,11 +7545,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 4d1a648c395399d41a26d5656b6d37c9, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -7906,6 +7902,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8613e7c95fb08924f9455965f31e735f, type: 3}
   - {fileID: 8300000, guid: e5fa2fc9dd613584388245f776e2f421, type: 3}
   - {fileID: 8300000, guid: fc34f38554324374b8b2e63f42fbe092, type: 3}
+  numAudio: 14
 --- !u!82 &5042848091040450408
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10706,6 +10703,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 93924e6caaca4ce4298da0688eb9af58, type: 3}
   - {fileID: 8300000, guid: 99393d815740fc74eb74d7080eb6dfcf, type: 3}
   - {fileID: 8300000, guid: e0fd1c8943b416d47b6fd07050666c4f, type: 3}
+  numAudio: 8
 --- !u!82 &6785704442911099049
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11555,6 +11553,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c57ef2bb6ddf15448b05e743a2e4d18b, type: 3}
   - {fileID: 8300000, guid: b1eee49f59be600498fdb5c0e00148d1, type: 3}
   - {fileID: 8300000, guid: 45c1d6524e499044c90c496822777ef9, type: 3}
+  numAudio: 5
 --- !u!82 &7204622967955656666
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12054,6 +12053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Clips:
   - {fileID: 8300000, guid: e4f511743e967624e8cf839339749b2e, type: 3}
+  numAudio: 1
 --- !u!82 &7347585314877931956
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14646,6 +14646,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 436e8ead38798b9478b2327ee94df939, type: 3}
   - {fileID: 8300000, guid: 31c5c242d427fd542af0de9e0d69a1ab, type: 3}
   - {fileID: 8300000, guid: 382a35934d27b1c48918270c2a9ada33, type: 3}
+  numAudio: 6
 --- !u!82 &8487212094984907734
 AudioSource:
   m_ObjectHideFlags: 0

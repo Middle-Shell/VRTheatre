@@ -8,12 +8,12 @@ public class ActorController : MonoBehaviour
     [SerializeField] private List<AudioClip> Clips;
 
     private AudioSource audioSorce;
-    private int numAudio;
+    [SerializeField] private int numAudio = 0;
 
 
     private void Start()
     {
-        numAudio = 0;
+        //numAudio = 0;
         audioSorce = GetComponent<AudioSource>();
     }
 

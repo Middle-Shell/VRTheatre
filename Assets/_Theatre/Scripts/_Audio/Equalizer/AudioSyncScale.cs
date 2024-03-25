@@ -38,7 +38,6 @@ public class AudioSyncScale : AudioSyncer
 	{
 		while (Mathf.Abs(DrmGameObject.radius - restScale) > 0.2f)
 		{
-			print("Down");
 			radius = Mathf.Lerp(DrmGameObject.radius, restScale, restSmoothTime * Time.deltaTime);
 			DrmGameObject.radius = radius;
 			yield return null;
