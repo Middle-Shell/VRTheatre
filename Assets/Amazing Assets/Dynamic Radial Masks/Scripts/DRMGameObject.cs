@@ -16,9 +16,7 @@ namespace AmazingAssets.DynamicRadialMasks
         [HideInInspector] public float currentPhase = 0;
         [HideInInspector] [Min(0.001f)] public float smooth = 1;
 
-        [SerializeField] private GameObject audioSyncScale;
-        [SerializeField] private bool play = false;
-        
+
 
 #if UNITY_EDITOR
         [HideInInspector] public bool displayAllProperties = true;
@@ -33,8 +31,7 @@ namespace AmazingAssets.DynamicRadialMasks
 
         void Update()
         {
-            if(play)
-                this.radius = audioSyncScale.GetComponent<AudioSyncScale>().radius * 0.3f;
+            //radius += Time.deltaTime;
             currentPhase += Time.deltaTime * phaseSpeed;
         }
     }
