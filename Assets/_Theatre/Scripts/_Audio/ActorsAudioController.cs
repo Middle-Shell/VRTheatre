@@ -49,28 +49,26 @@ public class ActorsAudioController : MonoBehaviour
         switch (blockI)
         {
             case 0:
-                animator.SetBool("Block0", true);
-                blockI++;
-                break;
-            case 1:
                 animator.SetBool("Block1", true);
                 blockI++;
                 break;
-            case 2:
+            case 1:
                 animator.SetBool("Block2", true);
                 blockI++;
                 break;
-            case 3:
+            case 2:
                 animator.SetBool("Block3", true);
                 blockI++;
                 break;
-            case 4:
+            case 3:
                 animator.SetBool("Block4", true);
                 blockI++;
                 break;
-            case 5:
+            case 4:
                 animator.SetBool("Block5", true);
                 blockI++;
+                break;
+            case 5:
                 break;
         }
         
