@@ -19,7 +19,7 @@ public class AudioSyncScale : AudioSyncer
 		float _initial = _curr;
 		float _timer = 0;
 
-		while (Mathf.Abs(_curr - _target) > 0.2f)
+		while (Mathf.Abs(_curr - _target) > 0.1f)
 		{
 			_curr = Mathf.Lerp(_initial, _target, _timer / timeToBeat);
 			_timer += Time.deltaTime;
@@ -30,12 +30,13 @@ public class AudioSyncScale : AudioSyncer
 			yield return null;
 		}
 
+		DrmGameObject.radius = beatScale;
 		m_isBeat = false;
 	}
 	
 	private IEnumerator DownToScale()
 	{
-		while (DrmGameObject.radius > .5f)
+		while (Mathf.Abs(DrmGameObject.radius - restScale) > 0.2f)
 		{
 			print("Down");
 			radius = Mathf.Lerp(DrmGameObject.radius, restScale, restSmoothTime * Time.deltaTime);
@@ -43,6 +44,7 @@ public class AudioSyncScale : AudioSyncer
 			yield return null;
 		}
 
+		DrmGameObject.radius = restScale;
 		isDown = false;
 		this.enabled = false;
 	}
@@ -73,6 +75,8 @@ public class AudioSyncScale : AudioSyncer
 
 		if (play)
 		{
+			StopCoroutine("DownToScale");
+			isDown = false;
 			StopCoroutine("MoveToScale");
 			StartCoroutine("MoveToScale", beatScale);
 		}
