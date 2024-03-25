@@ -3,10 +3,10 @@
 
 namespace AmazingAssets.DynamicRadialMasks
 {
-    [ExecuteAlways]
+    //[ExecuteAlways]
     public class DRMGameObject : MonoBehaviour
     {
-        [HideInInspector] public float radius = 5;
+        public float radius = 5;
         [HideInInspector] public float intensity = 1;
         [HideInInspector] public float noiseStrength = 0;
         [HideInInspector] [Min(0f)] public float edgeSize = 1;
@@ -14,7 +14,10 @@ namespace AmazingAssets.DynamicRadialMasks
         [HideInInspector] public float frequency = 10;
         [HideInInspector] public float phaseSpeed = 2;
         [HideInInspector] public float currentPhase = 0;
-        [HideInInspector] [Min(0.001f)] public float smooth = 1;               
+        [HideInInspector] [Min(0.001f)] public float smooth = 1;
+
+        [SerializeField] private GameObject audioSyncScale;
+        [SerializeField] private bool play = false;
         
 
 #if UNITY_EDITOR
@@ -30,6 +33,8 @@ namespace AmazingAssets.DynamicRadialMasks
 
         void Update()
         {
+            if(play)
+                this.radius = audioSyncScale.GetComponent<AudioSyncScale>().radius * 0.3f;
             currentPhase += Time.deltaTime * phaseSpeed;
         }
     }
