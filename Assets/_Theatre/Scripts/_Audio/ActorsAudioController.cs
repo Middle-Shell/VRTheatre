@@ -10,36 +10,43 @@ public class ActorsAudioController : MonoBehaviour
 
     public void Babki()
     {
+        actors[0].gameObject.SetActive(true);
         actors[0].NextSound();
     }
 
     public void OldWoman()
     {
+        actors[1].gameObject.SetActive(true);
         actors[1].NextSound();
     }
 
     public void YoungLady()
     {
+        actors[2].gameObject.SetActive(true);
         actors[2].NextSound();
     }
 
     public void OldMan()
     {
+        actors[3].gameObject.SetActive(true);
         actors[3].NextSound();
     }
     
     public void ThirdBlind()
     {
+        actors[4].gameObject.SetActive(true);
         actors[4].NextSound();
     }
 
     public void SecondBlind()
     {
+        actors[5].gameObject.SetActive(true);
         actors[5].NextSound();
     }
 
     public void FirstBlind()
     {
+        actors[6].gameObject.SetActive(true);
         actors[6].NextSound();
     }
 

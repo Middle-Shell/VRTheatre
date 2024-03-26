@@ -8,6 +8,7 @@ public class AudioSyncScale : AudioSyncer
 {
 
 	[SerializeField] private DRMGameObject DrmGameObject;
+	[SerializeField] private GameObject ActorModel;
 
 	[SerializeField] private bool play;
 	private bool isDown = false;
@@ -46,6 +47,7 @@ public class AudioSyncScale : AudioSyncer
 		DrmGameObject.radius = restScale;
 		isDown = false;
 		this.enabled = false;
+		ActorModel.SetActive(false);
 	}
 
 	public override void OnUpdate()
