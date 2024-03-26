@@ -51,6 +51,7 @@ public class ActorsAudioController : MonoBehaviour
     }
     public void SixthBlind()
     {
+        actors[7].gameObject.SetActive(true);
         actors[7].NextSound();
     }
 
