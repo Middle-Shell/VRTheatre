@@ -3545,7 +3545,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fed9641ee24385d4698de9fb997aba6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actors: []
+  actors:
+  - {fileID: 4977973233780995977}
+  - {fileID: 7204622967955656665}
+  - {fileID: 203061224379225899}
+  - {fileID: 7347585314877931955}
+  - {fileID: 8487212094984907733}
+  - {fileID: 6785704442911099048}
+  - {fileID: 5042848091040450407}
   blockI: 0
 --- !u!1001 &1809773192348454960
 PrefabInstance:
