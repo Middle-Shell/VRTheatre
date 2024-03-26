@@ -168,10 +168,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154d08415b0a1ea459790e54d4f30755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 1
+  bias: 5
   timeStep: 0.1
-  timeToBeat: 1
-  restSmoothTime: 0.9
+  timeToBeat: 1.2
+  restSmoothTime: 1.5
   DrmGameObject: {fileID: 103517056}
   play: 0
   radius: 0.5
@@ -253,10 +253,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154d08415b0a1ea459790e54d4f30755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 1
+  bias: 5
   timeStep: 0.1
-  timeToBeat: 1
-  restSmoothTime: 0.9
+  timeToBeat: 1.2
+  restSmoothTime: 1.5
   DrmGameObject: {fileID: 124147619}
   play: 0
   radius: 0.5
@@ -564,10 +564,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154d08415b0a1ea459790e54d4f30755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 1
+  bias: 5
   timeStep: 0.1
-  timeToBeat: 1
-  restSmoothTime: 0.9
+  timeToBeat: 1.2
+  restSmoothTime: 1.5
   DrmGameObject: {fileID: 322231415}
   play: 0
   radius: 0.5
@@ -832,10 +832,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154d08415b0a1ea459790e54d4f30755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 1
+  bias: 5
   timeStep: 0.1
-  timeToBeat: 1
-  restSmoothTime: 0.9
+  timeToBeat: 1.2
+  restSmoothTime: 1.5
   DrmGameObject: {fileID: 810124214}
   play: 0
   radius: 0.5
@@ -1109,10 +1109,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154d08415b0a1ea459790e54d4f30755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 1
+  bias: 5
   timeStep: 0.1
-  timeToBeat: 1
-  restSmoothTime: 0.9
+  timeToBeat: 1.2
+  restSmoothTime: 1.5
   DrmGameObject: {fileID: 1235146332}
   play: 0
   radius: 0.5
@@ -1666,10 +1666,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154d08415b0a1ea459790e54d4f30755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 1
+  bias: 5
   timeStep: 0.1
-  timeToBeat: 1
-  restSmoothTime: 0.9
+  timeToBeat: 1.2
+  restSmoothTime: 1.5
   DrmGameObject: {fileID: 2105354111}
   play: 0
   radius: 0.5
@@ -13715,7 +13715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92de4220c61c9f6449f2a9668f90cd1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 4.85
+  radius: 0.5
   intensity: 1
   noiseStrength: 0
   edgeSize: 1
@@ -13738,10 +13738,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154d08415b0a1ea459790e54d4f30755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 1
+  bias: 5
   timeStep: 0.1
-  timeToBeat: 1
-  restSmoothTime: 0.9
+  timeToBeat: 1.2
+  restSmoothTime: 1.5
   DrmGameObject: {fileID: 7959738808851759770}
   play: 0
   radius: 0.5
