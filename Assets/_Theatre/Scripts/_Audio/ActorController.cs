@@ -22,8 +22,11 @@ public class ActorController : MonoBehaviour
     {
         if(audioSorce == null)
             audioSorce = GetComponent<AudioSource>();
-        actorRenderer.enabled = true;
+        if(actorRenderer == null)
+            actorRenderer.enabled = true;
         audioSorce.PlayOneShot(Clips[numAudio]);
         numAudio++;
+        if (Clips.Count == numAudio)
+            numAudio = 0;
     }
 }
