@@ -7,45 +7,47 @@ using AmazingAssets.DynamicRadialMasks;
 public class AudioSyncScale : AudioSyncer
 {
 
-	[SerializeField] private DRMGameObject DrmGameObject;
+	[SerializeField] private DRMGameObject drmGameObject;
+	[SerializeField] private MeshRenderer actorRenderer;
 
 	[SerializeField] private bool play;
-	private bool isDown = false;
+	private bool _isDown = false;
 
 	public float radius;
-	private IEnumerator MoveToScale(float _target)
+	private IEnumerator MoveToScale(float target)
 	{
-		float _curr = DrmGameObject.radius;
-		float _initial = _curr;
-		float _timer = 0;
+		float curr = drmGameObject.radius;
+		float initial = curr;
+		float timer = 0;
 
-		while (Mathf.Abs(_curr - _target) > 0.1f)
+		while (Mathf.Abs(curr - target) > 0.1f)
 		{
-			_curr = Mathf.Lerp(_initial, _target, _timer / timeToBeat);
-			_timer += Time.deltaTime;
+			curr = Mathf.Lerp(initial, target, timer / timeToBeat);
+			timer += Time.deltaTime;
 
-			radius = _curr;
-			DrmGameObject.radius = radius;
+			radius = curr;
+			drmGameObject.radius = radius;
 
 			yield return null;
 		}
 
-		DrmGameObject.radius = beatScale;
+		drmGameObject.radius = beatScale;
 		m_isBeat = false;
 	}
 	
 	private IEnumerator DownToScale()
 	{
-		while (Mathf.Abs(DrmGameObject.radius - restScale) > 0.2f)
+		while (Mathf.Abs(drmGameObject.radius - restScale) > 0.2f)
 		{
-			radius = Mathf.Lerp(DrmGameObject.radius, restScale, restSmoothTime * Time.deltaTime);
-			DrmGameObject.radius = radius;
+			radius = Mathf.Lerp(drmGameObject.radius, restScale, restSmoothTime * Time.deltaTime);
+			drmGameObject.radius = radius;
 			yield return null;
 		}
 
-		DrmGameObject.radius = restScale;
-		isDown = false;
+		drmGameObject.radius = restScale;
+		_isDown = false;
 		this.enabled = false;
+		actorRenderer.enabled = false;
 	}
 
 	public override void OnUpdate()
@@ -53,19 +55,19 @@ public class AudioSyncScale : AudioSyncer
 		base.OnUpdate();
 
 		if (m_isBeat) return;
-		if (isDown) return;
+		if (_isDown) return;
 		
-		if (!play && !isDown)
+		if (!play && !_isDown)
 		{
 			StopCoroutine("MoveToScale");
 			StopCoroutine("DownToScale");
 			StartCoroutine("DownToScale", beatScale);
-			isDown = true;
+			_isDown = true;
 			return;
 		}
 		
-		radius = Mathf.Lerp(DrmGameObject.radius, restScale, restSmoothTime * Time.deltaTime);
-		DrmGameObject.radius = radius;
+		radius = Mathf.Lerp(drmGameObject.radius, restScale, restSmoothTime * Time.deltaTime);
+		drmGameObject.radius = radius;
 	}
 
 	public override void OnBeat()
@@ -75,7 +77,7 @@ public class AudioSyncScale : AudioSyncer
 		if (play)
 		{
 			StopCoroutine("DownToScale");
-			isDown = false;
+			_isDown = false;
 			StopCoroutine("MoveToScale");
 			StartCoroutine("MoveToScale", beatScale);
 		}

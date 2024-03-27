@@ -9,6 +9,7 @@ public class ActorController : MonoBehaviour
 
     private AudioSource audioSorce;
     [SerializeField] private int numAudio = 0;
+    [SerializeField] private MeshRenderer actorRenderer;
 
 
     private void Start()
@@ -19,6 +20,9 @@ public class ActorController : MonoBehaviour
 
     public void NextSound()
     {
+        if(audioSorce == null)
+            audioSorce = GetComponent<AudioSource>();
+        actorRenderer.enabled = true;
         audioSorce.PlayOneShot(Clips[numAudio]);
         numAudio++;
     }
