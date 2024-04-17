@@ -10,7 +10,7 @@ public class AudioSyncScale : AudioSyncer
 	[SerializeField] private DRMGameObject drmGameObject;
 	[SerializeField] private MeshRenderer actorRenderer;
 
-	[SerializeField] private bool play;
+	[SerializeField] public bool play;
 	private bool _isDown = false;
 
 	public float radius;
