@@ -12,6 +12,7 @@ public class LibraryController : MonoBehaviour
     [SerializeField] private GameObject Canvas;
     [SerializeField] private Animator ShowStart;
     
+    
     private void Start()
     {
         SelectController.SelectHandlerEvent += StartGame;
