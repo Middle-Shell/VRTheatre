@@ -7,21 +7,23 @@ using UnityEngine;
 
 public class LibraryController : MonoBehaviour
 {
+    [SerializeField] private GameObject Forest;
+    [SerializeField] private GameObject Sun;
+    [SerializeField] private GameObject Canvas;
+    [SerializeField] private Animator ShowStart;
+    
+    
     private void Start()
     {
-        SelectController.SelectHandlerEvent += MakeChoice;
+        SelectController.SelectHandlerEvent += StartGame;
     }
 
-    private void MakeChoice(GameObject gameObject)
+    private void StartGame(GameObject gameObject)
     {
-        var type = gameObject.GetComponent<IImageController>().GetType();
-        gameObject.layer = 0;
-        SaveController.SaveObject(type);
-        
-        //--------------------------------------------
-        print(PlayerPrefs.GetString(type.GetType().ToString()));
-        /*ForestType.TryParse(B, out ForestType _type);
-        print(_type);*/
-        
+        //ShowStart.SetBool("Start",true);
+        Canvas.SetActive(false);
+        Forest.SetActive(true);
+        Sun.SetActive(true);
+
     }
 }

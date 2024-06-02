@@ -13,6 +13,7 @@ public class SelectController : MonoBehaviour
     [SerializeField] private LayerMask layerMask;
 
     [SerializeField] private Slider slider;
+    [SerializeField] private GameObject SliderTracker;
     [SerializeField] private float timerDuration = 30f;
 
     private readonly Vector3 _rayStartPosition = new(Screen.width / 2, Screen.height / 2, 0);
@@ -69,6 +70,7 @@ public class SelectController : MonoBehaviour
 
         if (firstHit.transform == null)
         {
+            SliderTracker.SetActive(false);
             _timerRay = 0f;
             ResetTimer();
             return;
@@ -76,6 +78,8 @@ public class SelectController : MonoBehaviour
 
         if (firstHit.transform.gameObject == _currentHit)
         {
+            SliderTracker.SetActive(true);
+
             _timerRay += Time.deltaTime;
             TimerUpdate();
             if (_timerRay >= timerDuration)
