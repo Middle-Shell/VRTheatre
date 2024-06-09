@@ -49,7 +49,7 @@ Material:
     - _GlossMapScale: 0
     - _GlossyReflections: 0
     - _Invert: 0
-    - _OutlineThickness: 0.1
+    - _OutlineThickness: 0.03
     - _Parallax: 0.005
     - _Smoothness: 0.5
     - _Surface: 0

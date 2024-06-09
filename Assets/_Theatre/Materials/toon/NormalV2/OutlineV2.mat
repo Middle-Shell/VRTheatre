@@ -109,12 +109,12 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Float: 4.41
+    - _Float: 15.27
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _Normal_Threshold: 0.04
+    - _Normal_Threshold: 0.36
     - _OVERLAY: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005

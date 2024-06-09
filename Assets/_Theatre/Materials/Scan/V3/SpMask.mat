@@ -58,8 +58,8 @@ Material:
     - _Metallic: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SphereCenter: 4.63
-    - _SphereRadius: 2.79
+    - _SphereCenter: 1.61
+    - _SphereRadius: 7.13
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
