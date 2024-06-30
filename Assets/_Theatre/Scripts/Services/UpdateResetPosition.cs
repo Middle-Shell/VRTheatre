@@ -7,12 +7,14 @@ public class UpdateResetPosition : MonoBehaviour
 {
 
     
-    [SerializeField] private float speed = 3;
+    [SerializeField] private float speed = 1;
     [SerializeField] private Vector3 position;
     private Coroutine res;
 
+
     private void Start()
     {
+		
         //position = transform.localPosition;
     }
 
@@ -30,7 +32,7 @@ public class UpdateResetPosition : MonoBehaviour
     }
     IEnumerator  Reset()
     {
-        while (Vector3.Distance(transform.localPosition,position) > 0.01)
+        while (Vector3.Distance(transform.InverseTransformPoint(transform.position),position) > 0.01)
         {
             transform.localPosition = Vector3.Lerp(transform.localPosition,
                 position, speed * Time.deltaTime);
