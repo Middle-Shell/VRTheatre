@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using AmazingAssets.DynamicRadialMasks;
 using UnityEngine;
 using AmazingAssets.DynamicRadialMasks;
+using TMPro;
 
 public class AudioSyncScale : AudioSyncer
 {
 
 	[SerializeField] private DRMGameObject drmGameObject;
 	[SerializeField] private MeshRenderer actorRenderer;
+	[SerializeField] private TMP_Text Text;
 
 	[SerializeField] public bool play;
 	private bool _isDown = false;
@@ -37,8 +39,15 @@ public class AudioSyncScale : AudioSyncer
 	
 	private IEnumerator DownToScale()
 	{
+		StopCoroutine("MoveToScale");
+		StopCoroutine("DownToScale");
 		while (Mathf.Abs(drmGameObject.radius - restScale) > 0.2f)
 		{
+			print(this.gameObject.name);
+			print("RADIUS - " + drmGameObject.radius);
+			print("Target" + restScale);
+			print(Mathf.Abs(drmGameObject.radius - restScale));
+			print("----------------------");
 			radius = Mathf.Lerp(drmGameObject.radius, restScale, restSmoothTime * Time.deltaTime);
 			drmGameObject.radius = radius;
 			yield return null;
@@ -61,7 +70,7 @@ public class AudioSyncScale : AudioSyncer
 		{
 			StopCoroutine("MoveToScale");
 			StopCoroutine("DownToScale");
-			StartCoroutine("DownToScale", beatScale);
+			StartCoroutine("DownToScale", 0.5f);
 			_isDown = true;
 			return;
 		}

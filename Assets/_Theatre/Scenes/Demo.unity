@@ -921,6 +921,7 @@ MonoBehaviour:
   restSmoothTime: 2.9
   drmGameObject: {fileID: 103517056}
   actorRenderer: {fileID: 1726896105}
+  Text: {fileID: 0}
   play: 0
   radius: 0.5
   beatScale: 3.7
@@ -1085,6 +1086,7 @@ MonoBehaviour:
   restSmoothTime: 2.9
   drmGameObject: {fileID: 124147619}
   actorRenderer: {fileID: 1766953396}
+  Text: {fileID: 0}
   play: 0
   radius: 0.5
   beatScale: 3.7
@@ -2112,6 +2114,7 @@ MonoBehaviour:
   restSmoothTime: 2.9
   drmGameObject: {fileID: 322231415}
   actorRenderer: {fileID: 1978924518}
+  Text: {fileID: 0}
   play: 0
   radius: 0.5
   beatScale: 3.7
@@ -5591,35 +5594,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.15338336
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.01401794
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.12019381
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.89911073
+      value: 0.8967933
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.06451164
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.43772128
+      value: 0.43659312
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.031406723
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 8.229
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -6091,6 +6094,7 @@ MonoBehaviour:
   restSmoothTime: 2.9
   drmGameObject: {fileID: 810124214}
   actorRenderer: {fileID: 1224142613}
+  Text: {fileID: 0}
   play: 0
   radius: 0.5
   beatScale: 3.7
@@ -8361,6 +8365,7 @@ MonoBehaviour:
   restSmoothTime: 2.9
   drmGameObject: {fileID: 1235146332}
   actorRenderer: {fileID: 910492220}
+  Text: {fileID: 0}
   play: 0
   radius: 0.5
   beatScale: 3.7
@@ -9295,74 +9300,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 662053061}
   m_LocalEulerAnglesHint: {x: 46.38, y: 0, z: 0}
---- !u!1 &1367579188
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1367579191}
-  - component: {fileID: 1367579190}
-  - component: {fileID: 1367579189}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1367579189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367579188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &1367579190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367579188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &1367579191
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367579188}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1390440315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9743,6 +9680,7 @@ MonoBehaviour:
   restSmoothTime: 2.9
   drmGameObject: {fileID: 1433445966}
   actorRenderer: {fileID: 739064396}
+  Text: {fileID: 0}
   play: 0
   radius: 0.5
   beatScale: 3.7
@@ -13588,6 +13526,7 @@ MonoBehaviour:
   restSmoothTime: 2.9
   drmGameObject: {fileID: 2105354111}
   actorRenderer: {fileID: 1400686915}
+  Text: {fileID: 0}
   play: 0
   radius: 0.5
   beatScale: 3.7
@@ -14704,6 +14643,15 @@ MonoBehaviour:
   - {fileID: 6785704442911099048}
   - {fileID: 5042848091040450407}
   - {fileID: 49057777}
+  actorsDRM:
+  - {fileID: 2105354110}
+  - {fileID: 1235146333}
+  - {fileID: 7959738808851759771}
+  - {fileID: 810124215}
+  - {fileID: 124147620}
+  - {fileID: 322231416}
+  - {fileID: 103517055}
+  - {fileID: 1433445965}
   blockI: 0
 --- !u!1001 &1809773192348454960
 PrefabInstance:
@@ -21100,6 +21048,7 @@ MonoBehaviour:
   restSmoothTime: 2.9
   drmGameObject: {fileID: 7959738808851759770}
   actorRenderer: {fileID: 1546901639}
+  Text: {fileID: 0}
   play: 0
   radius: 0.5
   beatScale: 3.7
@@ -21260,6 +21209,7 @@ MonoBehaviour:
   - {fileID: 8428036887451380069}
   - {fileID: 5385809946504655432}
   - {fileID: 6177596859566407306}
+  actorsDRM: []
   blockI: 0
 --- !u!1001 &8312677641561119612
 PrefabInstance:
@@ -22190,7 +22140,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1877465231}
-  - {fileID: 1367579191}
   - {fileID: 751025373}
   - {fileID: 1240962766584170555}
   - {fileID: 1635390971}
