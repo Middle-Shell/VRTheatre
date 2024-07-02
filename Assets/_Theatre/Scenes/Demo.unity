@@ -532,6 +532,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ab961c63b2bdf874f83aa5dd327afdf3, type: 3}
   - {fileID: 8300000, guid: ac770445a451bb247b0fc77206b28045, type: 3}
   - {fileID: 8300000, guid: 0ef49a477c70b11429dfe0db1a518519, type: 3}
+  DRM: {fileID: 1433445965}
   numAudio: 0
   actorRenderer: {fileID: 739064396}
 --- !u!82 &49057778
@@ -925,7 +926,7 @@ MonoBehaviour:
   play: 0
   radius: 0.5
   beatScale: 3.7
-  restScale: 0.5
+  restScale: 0
 --- !u!114 &103517056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1090,7 +1091,7 @@ MonoBehaviour:
   play: 0
   radius: 0.5
   beatScale: 3.7
-  restScale: 0.5
+  restScale: 0
 --- !u!4 &124147621
 Transform:
   m_ObjectHideFlags: 0
@@ -2118,7 +2119,7 @@ MonoBehaviour:
   play: 0
   radius: 0.5
   beatScale: 3.7
-  restScale: 0.5
+  restScale: 0
 --- !u!4 &322231417
 Transform:
   m_ObjectHideFlags: 0
@@ -5594,35 +5595,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.15338336
+      value: -0.25647262
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01401794
+      value: 0.03956616
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.12019381
+      value: -0.20097631
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8967933
+      value: 0.89255434
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.06451164
+      value: 0.108382896
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.43659312
+      value: 0.4345294
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.031406723
+      value: -0.052764915
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 8.229
+      value: 13.847
       objectReference: {fileID: 0}
     - target: {fileID: 7980887193412157980, guid: 2e4e0ae75f5bc744c995e13e515da05a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -6098,7 +6099,7 @@ MonoBehaviour:
   play: 0
   radius: 0.5
   beatScale: 3.7
-  restScale: 0.5
+  restScale: 0
 --- !u!4 &810124216
 Transform:
   m_ObjectHideFlags: 0
@@ -8369,7 +8370,7 @@ MonoBehaviour:
   play: 0
   radius: 0.5
   beatScale: 3.7
-  restScale: 0.5
+  restScale: 0
 --- !u!4 &1235146334
 Transform:
   m_ObjectHideFlags: 0
@@ -9684,7 +9685,7 @@ MonoBehaviour:
   play: 0
   radius: 0.5
   beatScale: 3.7
-  restScale: 0.5
+  restScale: 0
 --- !u!114 &1433445966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13530,7 +13531,7 @@ MonoBehaviour:
   play: 0
   radius: 0.5
   beatScale: 3.7
-  restScale: 0.5
+  restScale: 0
 --- !u!114 &2105354111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14102,6 +14103,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b86deaa3f61a1ed45afe783c4c31fccb, type: 3}
   - {fileID: 8300000, guid: f80c263b37c2cfb4aaba9a2089bc3e04, type: 3}
   - {fileID: 8300000, guid: c2786fb3ccdc8a44aa8fa9226cc9f7e3, type: 3}
+  DRM: {fileID: 7959738808851759771}
   numAudio: 0
   actorRenderer: {fileID: 1546901639}
 --- !u!82 &203061224379225900
@@ -14596,7 +14598,6 @@ Transform:
   - {fileID: 683467652}
   - {fileID: 2589748059002258330}
   - {fileID: 8553071273396321944}
-  - {fileID: 8242413967382069650}
   - {fileID: 2653910810733706906}
   - {fileID: 882715970827010529}
   - {fileID: 5301949908892721355}
@@ -17174,6 +17175,7 @@ MonoBehaviour:
   Clips:
   - {fileID: 8300000, guid: 4d1a648c395399d41a26d5656b6d37c9, type: 3}
   - {fileID: 8300000, guid: 4d1a648c395399d41a26d5656b6d37c9, type: 3}
+  DRM: {fileID: 2105354110}
   numAudio: 0
   actorRenderer: {fileID: 1400686915}
 --- !u!82 &4977973233780995978
@@ -17503,6 +17505,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 073a0be5e923f2f4c8e2f6437bccb3b3, type: 3}
   - {fileID: 8300000, guid: 4c00fdbb354f9cc45939eef388513959, type: 3}
   - {fileID: 8300000, guid: 0c7f93bb93684d94b9c232f6c4adec23, type: 3}
+  DRM: {fileID: 103517055}
   numAudio: 0
   actorRenderer: {fileID: 1726896105}
 --- !u!82 &5042848091040450408
@@ -17925,6 +17928,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 75257aad6b22a19469bedcf18786cf46, type: 3}
   - {fileID: 8300000, guid: 74c0b9c8c31abc24abc50b09604bb69c, type: 3}
   - {fileID: 8300000, guid: 7f52330bc335b1a47ba23d6e8548a354, type: 3}
+  DRM: {fileID: 0}
   numAudio: 0
   actorRenderer: {fileID: 0}
 --- !u!1001 &5470277310457829326
@@ -18632,6 +18636,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7f52330bc335b1a47ba23d6e8548a354, type: 3}
   - {fileID: 8300000, guid: 75257aad6b22a19469bedcf18786cf46, type: 3}
   - {fileID: 8300000, guid: 74c0b9c8c31abc24abc50b09604bb69c, type: 3}
+  DRM: {fileID: 0}
   numAudio: 0
   actorRenderer: {fileID: 0}
 --- !u!1001 &6199119840642472631
@@ -19472,6 +19477,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7b864e5f63c25a042835667a8d8b2026, type: 3}
   - {fileID: 8300000, guid: 1c62f679f14354246b88b36316db6758, type: 3}
   - {fileID: 8300000, guid: b1b749c88273fe7448f479471f018d45, type: 3}
+  DRM: {fileID: 322231416}
   numAudio: 0
   actorRenderer: {fileID: 1978924518}
 --- !u!82 &6785704442911099049
@@ -19925,6 +19931,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 45152e4a0a9bfd943aef9db79929af7d, type: 3}
   - {fileID: 8300000, guid: bed41e80f70ad5d40a64679d02ab6eea, type: 3}
   - {fileID: 8300000, guid: c3a7e1c2a6326a64c8ac83b69d79a7ef, type: 3}
+  DRM: {fileID: 1235146333}
   numAudio: 0
   actorRenderer: {fileID: 910492220}
 --- !u!82 &7204622967955656666
@@ -20443,6 +20450,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 66788bfce4c4618448e6e97f8ea2deb7, type: 3}
   - {fileID: 8300000, guid: b4687a815c4baf84c818c8303b8b8fed, type: 3}
   - {fileID: 8300000, guid: 382a35934d27b1c48918270c2a9ada33, type: 3}
+  DRM: {fileID: 810124215}
   numAudio: 0
   actorRenderer: {fileID: 1224142613}
 --- !u!82 &7347585314877931956
@@ -20640,7 +20648,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8242413967382069650}
-  - component: {fileID: 8242413967382069651}
   - component: {fileID: 8242413967382069652}
   m_Layer: 0
   m_Name: DRM
@@ -21052,7 +21059,7 @@ MonoBehaviour:
   play: 0
   radius: 0.5
   beatScale: 3.7
-  restScale: 0.5
+  restScale: 0
 --- !u!1001 &8054976469698825032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21148,7 +21155,7 @@ Transform:
   m_GameObject: {fileID: 7574314741858629464}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.039064, y: -20.2721, z: 75.5757}
+  m_LocalPosition: {x: 19.999063, y: -19.5321, z: 80.5857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21170,29 +21177,8 @@ Transform:
   - {fileID: 6124605294239417974}
   - {fileID: 2838643800025568120}
   - {fileID: 5796026361503162111}
-  m_Father: {fileID: 1240962766584170555}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &8242413967382069651
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7574314741858629464}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 10952914339b47c4692fef4d152081b1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &8242413967382069652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21505,6 +21491,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 74c0b9c8c31abc24abc50b09604bb69c, type: 3}
   - {fileID: 8300000, guid: 75257aad6b22a19469bedcf18786cf46, type: 3}
   - {fileID: 8300000, guid: 7f52330bc335b1a47ba23d6e8548a354, type: 3}
+  DRM: {fileID: 0}
   numAudio: 0
   actorRenderer: {fileID: 0}
 --- !u!1001 &8487212094984907730
@@ -21644,6 +21631,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5a03f4051e90bd0448f3abec25be9920, type: 3}
   - {fileID: 8300000, guid: f547b8dd9ceb73c4cb0906e3cfcb988a, type: 3}
   - {fileID: 8300000, guid: f76d83a2882b2bd44ac26671710ce920, type: 3}
+  DRM: {fileID: 124147620}
   numAudio: 0
   actorRenderer: {fileID: 1766953396}
 --- !u!82 &8487212094984907734
@@ -22150,3 +22138,4 @@ SceneRoots:
   - {fileID: 984065414}
   - {fileID: 208388314}
   - {fileID: 1324520233}
+  - {fileID: 8242413967382069650}

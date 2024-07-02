@@ -6,6 +6,7 @@ using UnityEngine;
 public class ActorController : MonoBehaviour
 {
     [SerializeField] private List<AudioClip> Clips;
+    [SerializeField] private AudioSyncScale DRM;
 
     private AudioSource audioSorce;
     [SerializeField] private int numAudio = 0;
@@ -20,6 +21,8 @@ public class ActorController : MonoBehaviour
 
     public void NextSound()
     {
+        DRM.enabled = true;
+        DRM.play = true;
         if(audioSorce == null)
             audioSorce = GetComponent<AudioSource>();
         if(actorRenderer != null)
