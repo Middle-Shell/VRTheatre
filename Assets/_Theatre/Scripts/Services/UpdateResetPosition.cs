@@ -10,11 +10,14 @@ public class UpdateResetPosition : MonoBehaviour
     [SerializeField] private float speed = 1;
     [SerializeField] private Vector3 position;
     private Coroutine res;
+    private Collider coll;
 
 
     private void Start()
     {
-		
+        coll = GetComponent<Collider>();
+        
+        StartCoroutine(Reset());
         //position = transform.localPosition;
     }
 
@@ -34,10 +37,17 @@ public class UpdateResetPosition : MonoBehaviour
     {
         while (Vector3.Distance(transform.InverseTransformPoint(transform.position),position) > 0.01)
         {
+            coll.attachedRigidbody.useGravity = false;
             transform.localPosition = Vector3.Lerp(transform.localPosition,
                 position, speed * Time.deltaTime);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, 0),Time.deltaTime);
             yield return null;
-        }
+            if (Vector3.Distance(transform.InverseTransformPoint(transform.position), position) >= 0.01)
+            {
+                coll.attachedRigidbody.useGravity = true;
+                yield break;
+            }
+        } 
         
     }
 }
