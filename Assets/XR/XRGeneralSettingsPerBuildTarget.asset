@@ -16,7 +16,7 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: 1f01168141db8df46bd53b2ce30bb08e, type: 2}
+  - {fileID: 11400000, guid: 30cdf23287412a446926c164fce91d2b, type: 2}
 --- !u!114 &-809120306494251386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
+  - {fileID: 11400000, guid: 30cdf23287412a446926c164fce91d2b, type: 2}
   - {fileID: 11400000, guid: 1f01168141db8df46bd53b2ce30bb08e, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -46,10 +47,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: 
-  Keys: 0100000007000000
+  Keys: 010000000700000004000000
   Values:
   - {fileID: 4822565198232142159}
   - {fileID: 6861700915294223260}
+  - {fileID: 5463674828427913127}
 --- !u!114 &4822565198232142159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,7 +65,21 @@ MonoBehaviour:
   m_Name: Standalone Settings
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -809120306494251386}
-  m_InitManagerOnStart: 1
+  m_InitManagerOnStart: 0
+--- !u!114 &5463674828427913127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: iPhone Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: 0}
+  m_InitManagerOnStart: 0
 --- !u!114 &6861700915294223260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,4 +93,4 @@ MonoBehaviour:
   m_Name: Android Settings
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -2261372219264533363}
-  m_InitManagerOnStart: 1
+  m_InitManagerOnStart: 0
