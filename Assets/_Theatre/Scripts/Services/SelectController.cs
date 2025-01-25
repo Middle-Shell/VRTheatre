@@ -16,7 +16,7 @@ public class SelectController : MonoBehaviour
     [SerializeField] private GameObject SliderTracker;
     [SerializeField] private float timerDuration = 30f;
 
-    private readonly Vector3 _rayStartPosition = new(Screen.width / 2, Screen.height / 2, 0);
+    private readonly Vector3 _rayStartPosition = new Vector3(Screen.width / 2, Screen.height / 2, 0);
     private GameObject _currentHit = null;
     private Ray _ray;
 

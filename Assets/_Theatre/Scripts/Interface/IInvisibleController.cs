@@ -2,6 +2,6 @@
 {
     public interface IInvisibleController
     {
-        public void SetUp();
+        void SetUp();
     }
 }

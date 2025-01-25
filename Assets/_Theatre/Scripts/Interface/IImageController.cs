@@ -5,6 +5,6 @@ namespace _Theatre.Scripts
 {
     public interface IImageController
     {
-        public Enum GetType();
+        Enum GetType();
     }
 }
